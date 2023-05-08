@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "slidev build --base /rmt-driver-lecture/",
+    "dev": "slidev --open",
+    "export": "slidev export",
+    "format": "slidev format"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.28.10",
+    "@slidev/theme-default": "*",
+    "@slidev/theme-seriph": "*"
+  },
+  "name": "slides",
+  "devDependencies": {
+    "@iconify-json/mdi": "^1.1.50",
+    "@iconify-json/twemoji": "^1.1.11",
+    "@iconify-json/uim": "^1.1.5",
+    "playwright-chromium": "^1.33.0"
+  }
+}
