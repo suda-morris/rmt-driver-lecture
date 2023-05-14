@@ -1,0 +1,26 @@
+{
+    "signal": [
+        {
+            "name": "Bit Zero",
+            "wave": "01.0..1",
+            "node": ".c.e..f"
+        },
+        {
+            "name": "Bit One",
+            "wave": "01..0.1",
+            "node": ".h..i.j"
+        },
+        {
+            "name": "Reset",
+            "wave": "10|...1",
+            "node": ".a....b."
+        }
+    ],
+    "edge": [
+        "a<->b >50us",
+        "c<->e 0.35us",
+        "e<->f 0.9us",
+        "h<->i 0.9us",
+        "i<->j 0.35us"
+    ]
+}
